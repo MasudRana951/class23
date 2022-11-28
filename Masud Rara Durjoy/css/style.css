@@ -1,0 +1,184 @@
+/* root variables start here */
+:root{
+    
+}
+/* root variables end here */
+
+/* all common css start here */
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul, li, ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ a:hover{
+    text-decoration: none;
+ }
+/* all common css end her */
+
+body{
+    background: #162741;
+}
+ /* navbar start here */
+ #navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+ }
+ #navbar ul{}
+ #navbar ul li{
+    margin-left: 55px;
+ }
+ #navbar ul li a{
+    color: #fff;
+ }
+ /* navbar end here */
+ /* banner start */
+ #banner{
+   background: url(../images/Banner\ BG.jpg); 
+
+ }
+ #banner .overlay{
+    background: url(../images/overlay.png); 
+    padding-top: 187px;
+    /* box-shadow: inset 0px 115px 83px rgba(0, 0, 0, 0.7); */
+ }
+
+ #banner .banner_text{
+    align-items: center;
+    text-align: center;
+ }
+ #banner .banner_text span{
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 112%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+ }
+ #banner h1{
+    font-family: 'Kaushan Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 112%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+ }
+ #banner h4{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 112%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    }
+ #banner p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+ }
+ #banner .buttons{
+    border: none;
+    border-radius: 5px;
+ }
+ #banner .buttons a{
+    background: #fff;
+ }
+
+ #banner .banner_slider .slider_item{
+    width: 100%;
+ }
+ /* banner end */
+
+ /* content start here */
+
+ #web_content{}
+ #web_content{
+    padding: 122px;
+ }
+ #web_content h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 112%;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+ }
+ #web_content p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+ }
+ #web_content button{
+    border: none;
+ }
+ #web_content button a{
+    border-radius: 5px;
+ }
+
+ #web_content .content_image{
+   
+ }
+
+ /* web content end */
+
+ /* footer start */
+    #footer{
+        background: #101C2E;
+    }
+    #footer .footer_nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #footer .footer_nav .footer_nav_logo{
+    }
+    
+
+    #footer .footer_nav .footer_nav_logo img{
+        height: 62.82px;
+    margin: start;
+    
+    }
+
+    #footer .footer_nav .footer_nav_icon{}
+    #footer .footer_nav .footer_nav_icon i{
+        margin-left: 20px;
+    }
+
+ /* footer end */
+
+ #end{
+  background: #080F18;
+ }
+ #end .text{
+    text-align: center;
+ }
+ #end .text p{}
+ #end .text p span{}
